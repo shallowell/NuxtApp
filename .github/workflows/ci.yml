@@ -27,8 +27,6 @@ jobs:
       - name: generate
         run: npm run generate
 
-        echo エラー原因の一文 >> store/memos.js
-
     #   - name: deploy
     #     run: |
     #       npx firebase use ${{ secrets.FIREBASE_PROJECT }} --token=${{ secrets.FIREBASE_TOKEN }}
